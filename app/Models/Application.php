@@ -9,5 +9,6 @@ class Application extends Model
     protected $fillable = [
         'theme',
         'email',
+        'user_id',
     ];
 }
